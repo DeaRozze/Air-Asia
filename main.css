@@ -1,0 +1,20 @@
+body {font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+  position: relative;
+}
+.logo {
+  position:absolute;
+  margin: 29px 1445px 1137px 390px;
+}
+
+.menu{
+  position: absolute;
+  margin: 42px 1102px 1141px 554px;
+}
+
+.contacts {
+  position: absolute;
+  margin: 26px 389px 1140px 1340px;
+}
