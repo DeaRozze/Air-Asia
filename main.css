@@ -286,12 +286,12 @@ margin-top: 25px;
   vertical-align: top;
   width: 490px;
   height: 505px;
-  background: url(/img/gates.png) center center / cover no-repeat;
+  background: url(./img/gates.png) center center / cover no-repeat;
   margin-top: 152px;
 }
 
 .about__content {
-background:url(/img/mountains.png);
+background:url(./img/mountains.png);
 width: 785px;
 height: 455px;
 padding: 70px 80px;
