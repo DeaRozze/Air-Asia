@@ -138,6 +138,7 @@ a.contacts__tel {
   width: 359px;
   margin-right: 27px;
   background:#FFF;
+  border-radius: 5px 5px 5px 5px;
 }
 .hot-tours__image {
   max-width: 100%;
@@ -339,7 +340,7 @@ margin-top: 105px;
 }
 .footer {
   position: relative;
-  height: 128px;
+  height: 150px;
   margin-top: 53px;
   border-top: 1px solid  #192f37;
 }
@@ -356,8 +357,8 @@ margin-top: 105px;
 
 .socials__list {
   position: absolute;
-  top: 14px;
   right: 300px;
+  top: 35px;
 }
 .socials__link {
   display: block;
@@ -373,7 +374,17 @@ margin-top: 105px;
   text-align: right;
 }
 
+.footer .logo{
+  top: 40px;
+}
 
+.footer .menu{
+  top: 45px;
+}
+
+.footer .contacts{
+  top: 25px;
+}
 
 .main-page-wrapper {
  background: url(./img/1.png) center top no-repeat, url(./img/2.png) bottom  center no-repeat;
