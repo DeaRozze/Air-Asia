@@ -1,0 +1,14 @@
+.menu__item {
+  display: inline-block;
+  margin-right: 54px;
+}
+
+.menu__link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFF;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}

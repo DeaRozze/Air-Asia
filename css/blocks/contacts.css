@@ -1,0 +1,26 @@
+address {
+  font-style: normal;
+  padding-top: 20px;
+}
+
+a.contacts__tel {
+  display: block;
+  font-size: 26px;
+  color:#FFF;
+  font-weight: 400;
+}
+.contacts__graph {
+  font-size: 13px;
+  text-decoration-line: underline;
+  color:#FFF;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.contacts__desc {
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #9A9A9A;
+  text-align: right;
+}
