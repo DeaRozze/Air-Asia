@@ -1,11 +1,11 @@
 .inner-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin-top: auto;
   background-color:#001821;
 }
 
 .inner-footer__container {
   padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
