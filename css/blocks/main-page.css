@@ -3,6 +3,6 @@
 }
 
 .main-page-wrapper {
-  background: url(/././img/1.png) center top no-repeat, url(/././img/2.png) bottom  center no-repeat;
+  background: url(../../img/1.png) center top no-repeat, url(../../img/2.png) bottom  center no-repeat;
   background-color: #001821;
  }
