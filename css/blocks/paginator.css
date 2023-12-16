@@ -43,12 +43,15 @@
   background:#FFF;
 }
 
-.paginator--dark--light {
+.paginator--dark--light .paginator__display {
   color:black;
-
 }
 
-.paginator--dark-light .paginator__link:hover {
+.paginator--dark--light .paginator__link {
+  color:black;
+}
+
+.paginator--dark--light .paginator__link:hover {
   color:#FFF;
   background:#F5170E;
 }
