@@ -1,17 +1,19 @@
 .welcome-page-wrapper {
   background: url(../../img/bg.png) center center no-repeat;
+  background-size: cover;
 }
-
-
 
 .welcome {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 630px;
+  justify-content: center;
+  padding-top: 280px;
+  animation-name: text;
+  animation-duration: 3s;
 }
 
-.logo__icon--welcome-page {
+.logo__icon--welcome--page {
   width: 279px;
   height: 119px;
 }
@@ -21,9 +23,22 @@
   font-weight: 400;
   line-height: normal;
   margin-right: 70px;
+
 }
 
+@keyframes text {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 .welcome__button {
   margin-top: 52px;
-  margin-right: 70px
+  margin-right: 70px;
 }
+
