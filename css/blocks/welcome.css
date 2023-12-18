@@ -1,0 +1,29 @@
+.welcome-page-wrapper {
+  background: url(../../img/bg.png) center center no-repeat;
+}
+
+
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 630px;
+}
+
+.logo__icon--welcome-page {
+  width: 279px;
+  height: 119px;
+}
+.welcome__text {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 70px;
+}
+
+.welcome__button {
+  margin-top: 52px;
+  margin-right: 70px
+}
