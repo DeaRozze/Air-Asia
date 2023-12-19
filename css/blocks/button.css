@@ -16,8 +16,25 @@ button {
   cursor: pointer;
 }
 
-.button--border { 
+.button--border:hover { 
   background:transparent;
   border-color: #F5170E;
   color:#F5170E;
+  transition: 0.5s;
+  animation: flip 1s linear;
+}
+
+@keyframes flip{
+  50% {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+.button__link {
+  text-transform: uppercase;
+  color:#FFF;
+  font-size: 14px;
+  font-weight: 700;
 }
