@@ -3,14 +3,18 @@
   background-size: cover;
 }
 
+.main--welcome--page {
+  margin: 0 auto;
+}
+
 .welcome {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 280px;
   animation-name: text;
   animation-duration: 2s;
+  height: 100vh;
 }
 
 .logo__icon--welcome--page {
