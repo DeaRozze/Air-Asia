@@ -12,9 +12,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  animation-name: text;
-  animation-duration: 2s;
   height: 100vh;
+  animation: text 2s;
 }
 
 .logo__icon--welcome--page {
