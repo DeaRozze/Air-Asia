@@ -16,6 +16,10 @@
   animation: text 2s;
 }
 
+.logo--welcome--page {
+  margin-right: 0;
+}
+
 .logo__icon--welcome--page {
   width: 279px;
   height: 119px;
@@ -25,12 +29,19 @@
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
-  margin-right: 70px;
 }
 
-.welcome__button {
+.welcome-page-button {
   margin-top: 52px;
-  margin-right: 70px;
+  background: #F5170E;
+  border-radius: 35px;
+  height: 55px;
+  width: 168px;
+  text-transform: uppercase;
+  color:#FFF;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 @keyframes text {
@@ -54,3 +65,4 @@
     transform: scale(1.2);
   }
 }
+
