@@ -12,3 +12,8 @@
 .menu__item:last-child {
   margin-right: 0;
 }
+
+.menu__link:hover {
+  color: #F5170E;
+  transition: 0.7s;
+}

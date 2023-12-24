@@ -14,25 +14,28 @@ button {
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  line-height: 55px;
 }
 
 .button--border:hover { 
   background:transparent;
   border-color: #F5170E;
   color:#F5170E;
-  transition: 0.5s;
-  animation: flip 1s linear;
+  transition: 0.7s;
 }
 
-@keyframes flip{
-  50% {
-    transform: rotateY(180deg);
-  }
-  to {
-    transform: rotateY(360deg);
-  }
+.button--border--grey {
+  background: #2B2B2B;
 }
 
+.button--border--grey:hover {
+  transition: 0.7s;
+  background:transparent;
+  color:#2B2B2B;
+  border-color: #2B2B2B;
+}
 
 
 
