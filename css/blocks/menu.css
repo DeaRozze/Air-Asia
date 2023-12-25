@@ -17,3 +17,7 @@
   color: #F5170E;
   transition: 0.7s;
 }
+
+.menu__link--active {
+  color: #F5170E;
+}
