@@ -31,7 +31,7 @@
 }
 
 .review__user:after {
-  content: url("/img/vk-blue\ 1.png");
+  content: url("../../img/vk-blue\ 1.png");
   height: 30px;
   margin-left: 8px;
 }
@@ -39,7 +39,7 @@
 .review__tags  {
   display: inline-flex;
   align-items:center;
-  margin-left: 30px;
+  margin-left: 18px;
 }
 
 .tag {
